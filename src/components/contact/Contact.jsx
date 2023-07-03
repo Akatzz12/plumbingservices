@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <section className='contact mb'>
-        <Back name='Contact Us' title='Call us right now...' cover={img} />
+        <Back name='' title='Contact Us...' cover={img} />
         <div className='container'>
           <form className='shadow'>
             <h4>Contact Details</h4> <br />
@@ -17,7 +17,8 @@ const Contact = () => {
             <p>9008659165</p>
             <p>channu.kulkarni@gmail.com</p>
             <p>#55, Oppo. Police Station
-            Kanakapura Main Road, Kaggalipura, Bangalore-560116</p>
+            Kanakapura Main Road, </p>
+           <p> Kaggalipura, Bangalore-560116</p>
             
           </form>
         </div>
