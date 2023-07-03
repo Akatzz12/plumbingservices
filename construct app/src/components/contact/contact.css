@@ -1,0 +1,32 @@
+.contact.mb h4 {
+  font-size: 24px; 
+}
+.contact.mb {
+  text-align: center;
+}
+
+.contact.mb h4,
+.contact.mb p {
+  font-size: 30px; 
+  text-align: center;
+  color: rgb(13, 14, 14);
+}
+
+
+
+
+.contact form {
+  padding: 30px;
+}
+@media screen and (max-width: 768px) {
+  .contact h4 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contact form div {
+    flex-direction: column;
+  }
+  .contact input {
+    width: 100%;
+  }
+}
