@@ -4,7 +4,7 @@
   color: #fff;
 }
 .footerContact h1 {
-  font-size: 40px;
+  font-size: 30px;
 }
 footer {
   background-color: #1d2636;
@@ -53,6 +53,7 @@ footer ul li {
 }
 @media screen and (max-width: 800px) {
   footer .container {
-    grid-template-columns: repeat(1.7, 0.8fr);
+    grid-template-columns: repeat(1, 0.1fr);
   }
+   
 }
